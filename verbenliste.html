@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbenliste Übungen</title>
+    <script type="text/javascript" src="papaparse.min.js"></script> 
+</head>
+<body>
+      <div class="card mb-3 mx-auto" style="max-width: 840px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://debeste.de/upload/cd7584181925b8f97e2c88dccd11cd2c4535.jpg" alt="" class="card-img-top" >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Verbenliste Übungen</h5>
+              <p class="text-info  text-right " id="score"></p>
+              <p class="card-text">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inf">Infinitiv: </span>
+                  </div>
+                  <input type="text" class="form-control" id="infinitiv">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="infLosung"></span>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="praIch">Präteritum: ich</span>
+                  </div>
+                  <input type="text" class="form-control" id="prateritum">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="praLosung"></span>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="perfektIch">Perfekt: ich</span>
+                  </div>
+                  <input type="text" class="form-control" id="perfekt">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="perLosung"></span>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="du">du-Form: du</span>
+                  </div>
+                  <input type="text" class="form-control" id="duForm">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="duLosung"></span>
+                  </div>
+                </div>                  
+                  <button type="button" id="starten"class="btn btn-primary mr-3">starten</button>
+                  <button type="button" id="nachste"class="btn btn-success mr-3 invisible" >nächste</button>
+                 
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <script src="verbenliste.js"></script>
+</body>
+</html>
